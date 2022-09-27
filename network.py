@@ -15,7 +15,7 @@ except ModuleNotFoundError as e:
     from pyroute2 import IPRoute
 
 my_gateways =defaultdict(dict)
-my_gateways['192.168.58.1']="192.168.58.175/24"
+my_gateways['192.168.58.1']="192.168.58.210/24"
 my_gateways['192.168.10.1']="192.168.10.20/24"
 
 def get_gateway():
